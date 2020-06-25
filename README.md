@@ -4,12 +4,30 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## What this microservice does
+Currently this microservice acts as the last of the financial scenario microservices. It will pull from the Kafka topic and deserializes the JSON into a Java object. The service will then validate if all booleans are false. If so it commits it to a final channel to be used with the WebSocket service.
+
+
+## Setting the environment variables prior to use
+
+Run the following command and replace the items in <> with your values prior to running the application. Note that the CERT_LOCATION environment variable is only necessary if you need to connect to an Event Streams instance on Cloud Pak for Integration for example.
+
+```shell
+export BOOTSTRAP_SERVERS=<your-bootstrap-server> \ 
+export TOPIC_NAME=<your-topic-name> \
+export API_KEY=<your-api-key> \
+export CERT_LOCATION=<path-to-truststorefile/es-cert.jks>
+```
+
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
 ```
 ./mvnw quarkus:dev
 ```
+
+Note - if you plan to spin up the other Financial project microservices locally you will need to add a -Ddebug=<port> to the above run command as the default puts the local service at port 5005.
 
 ## Packaging and running the application
 
