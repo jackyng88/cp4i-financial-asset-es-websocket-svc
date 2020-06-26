@@ -37,7 +37,7 @@
                     <i class="fa fa-trophy"></i> Financial
                 </h2>
                 <div class="card-pf-body">
-                    <div id="top-winner">
+                    <div id="message-list">
 
                     </div>
                 </div>
@@ -68,12 +68,12 @@
 
 
     function updateMessage(message) {
-        $("#top-winner").children("p").remove();
+        //$("#top-winner").children("p").remove();
         // JSON.parse(message).forEach(function(message) {
         //     $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
         // });
-        $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
-        console.log("inside the function " + message);
+        $("#message-list").append($("<p>"  + " [" + message + "]</p>"))
+        //console.log("inside the function " + message);
     }
 
 </script>
