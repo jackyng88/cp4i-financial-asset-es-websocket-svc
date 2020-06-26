@@ -25,7 +25,7 @@
 <body>
 <div class="container">
 <div class="row">
-    <div class="col"><h1 class="page-title">Super Stats</h1></div>
+    <div class="col"><h1 class="page-title">Financial WebSocket Test</h1></div>
 </div>
 </div>
 <div class="container container-cards-pf">
@@ -69,11 +69,11 @@
 
     function updateMessage(message) {
         $("#top-winner").children("p").remove();
-        JSON.parse(message).forEach(function(message) {
-            $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
-        });
-        // $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
-        // console.log("inside the function " + message);
+        // JSON.parse(message).forEach(function(message) {
+        //     $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
+        // });
+        $("#top-winner").append($("<p>"  + " [" + message + "]</p>"))
+        console.log("inside the function " + message);
     }
 
 </script>
