@@ -59,6 +59,8 @@ Finally to run the newly built Docker image we need to provide a few environment
 docker run -i --rm -p 8085:8085 --env BOOTSTRAP_SERVERS --env TOPIC_NAME --env API_KEY --env CERT_LOCATION=/work/ssl quarkus/cp4i-financial-websocket-ms-jvm
 ```
 
+You may notice that the CERT_LOCATION environment variable here is overwritten in this Docker run command and that's due to the docker image needing the filepath relative to the location inside of the container and not in the local environment.
+
 ## Creating a native executable
 
 You can create a native executable using: `./mvnw package -Pnative`.
