@@ -37,6 +37,28 @@ Be aware that it’s not an _über-jar_ as the dependencies are copied into the 
 
 The application is now runnable using `java -jar target/cp4i-financial-websocket-ms-1.0-SNAPSHOT-runner.jar`.
 
+## Testing and Running a JVM Docker Image 
+
+Note - For usage with Event Streams on the IBM Cloud Pak for Integration, copy your .jks certificate file into the src/main/resources/ssl folder prior to the docker build.
+
+Build the package if you haven't already
+
+```shell
+mvn package
+```
+
+Next we can build the JVM Docker image
+
+```shell
+docker build -f src/main/docker/Dockerfile.jvm -t quarkus/cp4i-financial-websocket-ms-jvm .
+```
+
+Finally to run the newly built Docker image we need to provide a few environment variables (that we exported locally earlier) since the values are not hard coded into our application.properties file.
+
+```shell
+docker run -i --rm -p 8085:8085 --env BOOTSTRAP_SERVERS --env TOPIC_NAME --env API_KEY --env CERT_LOCATION=/work/ssl quarkus/cp4i-financial-websocket-ms-jvm
+```
+
 ## Creating a native executable
 
 You can create a native executable using: `./mvnw package -Pnative`.
