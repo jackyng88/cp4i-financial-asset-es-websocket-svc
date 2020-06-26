@@ -1,5 +1,8 @@
 package com.ibm.garage.cpat.cp4i.FinancialMessage;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class FinancialMessage {
     
     public int user_id;

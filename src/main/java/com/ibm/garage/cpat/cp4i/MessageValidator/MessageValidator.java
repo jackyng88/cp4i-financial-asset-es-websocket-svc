@@ -30,8 +30,7 @@ public class MessageValidator {
 
         if (readyToPublish(receivedMessage)) {
             /*
-            Since Business Validation is the last service along the "conveyor belt" we just change
-            the boolean to false to indicate that it's finished.
+            Since this would be the last service, this does the final check on all the flags.
             */
             return Flowable.just(receivedMessage);
         }
@@ -44,7 +43,7 @@ public class MessageValidator {
 
     public boolean readyToPublish(FinancialMessage financialMessage) {
         // Returns true only if all the microservice flags are false. This means that all the
-        // checks have passed and ready to be published to the REST API.
+        // checks have passed and ready to be published to the WebSocket.
         return (!financialMessage.compliance_services && !financialMessage.technical_validation &&
                 !financialMessage.schema_validation && !financialMessage.business_validation &&
                 !financialMessage.trade_enrichment);
