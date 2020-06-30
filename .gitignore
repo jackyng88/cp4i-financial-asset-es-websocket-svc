@@ -36,4 +36,4 @@ pom.xml.versionsBackup
 release.properties
 
 # ES Cert
-src/main/resources/ssl
+!src/main/resources/ssl
