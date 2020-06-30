@@ -57,6 +57,7 @@
 <script>
     $(document).ready(function() {
         var host = window.location.host;
+        console.log("host is " + host);
 
         var top = new WebSocket("ws://" + host + "/validatedmessages");
         top.onmessage = function (event) {
