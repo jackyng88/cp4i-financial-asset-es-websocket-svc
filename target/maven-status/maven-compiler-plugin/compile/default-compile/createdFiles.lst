@@ -1,0 +1,4 @@
+com/ibm/garage/cpat/cp4i/FinancialMessage/FinancialMessageDeserializer.class
+com/ibm/garage/cpat/cp4i/FinancialMessage/FinancialMessage.class
+com/ibm/garage/cpat/cp4i/MessageValidator/MessageValidator.class
+com/ibm/garage/cpat/cp4i/WebSocket/WebSocket.class
