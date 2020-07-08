@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: icom.ibm.garage.cpat.cp4i.WebSocket.WebSocketTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.513 s <<< FAILURE! - in icom.ibm.garage.cpat.cp4i.WebSocket.WebSocketTest
-testHelloEndpoint  Time elapsed: 0.002 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.78 s <<< FAILURE! - in icom.ibm.garage.cpat.cp4i.WebSocket.WebSocketTest
+testHelloEndpoint  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.RuntimeException: java.lang.RuntimeException: Failed to start quarkus
 Caused by: java.lang.RuntimeException: Failed to start quarkus
-Caused by: javax.enterprise.inject.spi.DeploymentException: java.util.NoSuchElementException: Cannot find attribute `bootstrap.servers` for channel `pre-final-check`. Has been tried: mp.messaging.incoming.pre-final-check.bootstrap.servers and mp.messaging.connector.smallrye-kafka.bootstrap.servers
-Caused by: java.util.NoSuchElementException: Cannot find attribute `bootstrap.servers` for channel `pre-final-check`. Has been tried: mp.messaging.incoming.pre-final-check.bootstrap.servers and mp.messaging.connector.smallrye-kafka.bootstrap.servers
+Caused by: javax.enterprise.inject.spi.DeploymentException: java.util.NoSuchElementException: Cannot find attribute `ssl.truststore.location` for channel `pre-final-check`. Has been tried: mp.messaging.incoming.pre-final-check.ssl.truststore.location and mp.messaging.connector.smallrye-kafka.ssl.truststore.location
+Caused by: java.util.NoSuchElementException: Cannot find attribute `ssl.truststore.location` for channel `pre-final-check`. Has been tried: mp.messaging.incoming.pre-final-check.ssl.truststore.location and mp.messaging.connector.smallrye-kafka.ssl.truststore.location
 
