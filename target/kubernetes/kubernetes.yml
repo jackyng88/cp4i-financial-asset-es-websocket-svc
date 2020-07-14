@@ -4,8 +4,8 @@ kind: "ServiceAccount"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
     app.kubernetes.io/version: "1.0-SNAPSHOT"
@@ -16,8 +16,8 @@ kind: "Service"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
     app.kubernetes.io/version: "1.0-SNAPSHOT"
@@ -37,8 +37,8 @@ kind: "Deployment"
 metadata:
   annotations:
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
     app.kubernetes.io/version: "1.0-SNAPSHOT"
@@ -53,8 +53,8 @@ spec:
     metadata:
       annotations:
         app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-        app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
-        app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+        app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
+        app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
       labels:
         app.kubernetes.io/name: "cp4i-financial-websocket-ms"
         app.kubernetes.io/version: "1.0-SNAPSHOT"

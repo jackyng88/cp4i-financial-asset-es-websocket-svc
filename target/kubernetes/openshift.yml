@@ -3,9 +3,9 @@ apiVersion: "v1"
 kind: "ServiceAccount"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -17,9 +17,9 @@ apiVersion: "v1"
 kind: "Service"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -40,9 +40,9 @@ apiVersion: "image.openshift.io/v1"
 kind: "ImageStream"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -55,9 +55,9 @@ apiVersion: "image.openshift.io/v1"
 kind: "ImageStream"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -71,9 +71,9 @@ apiVersion: "image.openshift.io/v1"
 kind: "ImageStream"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -87,9 +87,9 @@ apiVersion: "build.openshift.io/v1"
 kind: "BuildConfig"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -113,9 +113,9 @@ apiVersion: "apps.openshift.io/v1"
 kind: "DeploymentConfig"
 metadata:
   annotations:
-    app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+    app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
     app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-    app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+    app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
     app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
   labels:
     app.kubernetes.io/name: "cp4i-financial-websocket-ms"
@@ -130,9 +130,9 @@ spec:
   template:
     metadata:
       annotations:
-        app.quarkus.io/build-timestamp: "2020-07-08 - 13:57:18 +0000"
+        app.quarkus.io/build-timestamp: "2020-07-14 - 20:53:21 +0000"
         app.openshift.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
-        app.quarkus.io/commit-id: "e914c9126fe87c155586ba80ad0b8de7c2401b43"
+        app.quarkus.io/commit-id: "bb23813e1d0f142d1b84a2f285b9721b632b8a3e"
         app.quarkus.io/vcs-url: "https://github.ibm.com/Jacky-Ng/cp4i-trading-scenario-es-websocket-svc.git"
       labels:
         app.kubernetes.io/name: "cp4i-financial-websocket-ms"
